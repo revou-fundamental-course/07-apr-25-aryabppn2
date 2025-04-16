@@ -1,0 +1,311 @@
+body{
+   font-family: Arial;
+   background-color:#dad4c4
+}
+a{
+   text-decoration: none;
+}
+main>article{
+    width:500px;
+    height: 45px;
+    background-color: #ccc7ba;
+    font-size: 20px;
+    border-radius:15px;
+    font-weight: bold;
+    color:rgb(66, 56, 38)
+}
+section{
+   height: 500px;
+}
+.content{
+ display: flex;
+
+ height: 80px;
+ margin-top: 0px;
+
+}
+header{
+   display: flex;
+}
+header>h1{
+   background-color: aliceblue;
+   color:orange;
+   font-family: 'Courier New', Courier, monospace;
+   padding:15px;
+   
+}
+   
+nav{
+display: flex;
+align-items: center;
+margin-left: 10px;
+margin-right: 300px;
+}
+
+nav>a{
+   text-decoration: none;
+   color:orange;
+   font-weight: bold;
+   font-size: 20px;
+   margin-left: 16px;
+   background-color: yellow;
+   padding:12px 12px;
+   border-radius:19px;
+}
+.img-slides{
+   border-radius: 20px;
+   width:500px;
+   height: 400px;
+   border:8px solid orange;
+   margin-top: 50px;
+   
+
+}
+
+.leo-logo{
+height: 70px;
+width: 70px;
+background-image: url('../assets/leo-logo.jpg');
+background-size: cover;
+border-radius:50%;
+}
+
+ .admin-show{
+    margin-left: 500px;
+    justify-content: space-between;
+    align-items: center;
+    
+
+ }
+
+
+ #home-page{
+ display: flex;
+ height: 500px;
+margin-top: 0px;
+ }
+ .descripton{
+   display: block;
+ }
+
+ #home-page>header{
+  width:500px;
+  height: 400px;
+  background-color: antiquewhite;
+  border-radius: 19px;
+
+}
+#home-page.div{
+   text-align: center;
+   margin-left: 100px;
+
+}
+.img-slides{
+   margin-left: 100px;
+}
+
+
+.leo-page{
+   margin-left: 200px;
+   width: 310px;
+   height: 460px;
+   background-color: lightgray;
+   text-align: center;
+   border-radius: 13px;
+
+}
+
+.leo-page>a{
+  font-size: 19px;
+}
+.leo-screen{
+    width:300px;
+    height:400px ;
+    margin-left:3px;
+    background-image: url('../assets/ui-ux.png');
+    background-size: cover;
+    text-align: center;
+}
+.option-header{
+   display: flex;
+}
+.option-header>h1{
+   background-color: aliceblue;
+   color:orange;
+   font-family: 'Courier New', Courier, monospace;
+   padding:15px
+}
+.option-nav{
+   margin-left: 10px;
+   margin-right: 300px;
+   
+
+}
+.option-nav>a{
+   margin-left: 60px;
+   font-size: 20px;
+   background-color:yellow;
+   padding:12px 12px;
+   border-radius: 20px;
+   font-weight: bold;
+   color:orange;
+
+
+}
+.option-body{
+   display: flex;
+
+}
+.option-body>div{
+   margin-right: 14px;
+}
+
+
+.qoutes-card{
+   width: 300px;
+   height: 300px;
+   overflow-y: auto;
+   border-radius: 12px;
+   background-color:lightcoral;
+   text-align: center;
+   margin-top: 19px;
+}
+.qoutes-card>h1,.qoutes-card>a{
+   text-decoration: none;
+   color:azure
+}
+.qoutes-share-card{
+   height: 300px;
+    width: 300px;
+
+      background-color: #e1c16e;
+      border-radius: 12px;
+      color: orange;
+      text-align: center;
+}
+.qoutes-share{
+   height: 200px;
+   width:300px;
+   background-color:blueviolet;
+   color:aliceblue
+
+}
+.chat-fitur{
+    width:300px;
+    height:380px;
+    background-color: #e1c16e;
+    margin-left: 30px;
+}
+.chat-fitur>button{
+width:145px;
+height: 40px;
+border: 0px;
+}
+#saya{
+   background-color: lightgreen;
+   color:blue
+}
+#orang{
+   background-color: orange;
+   color:aliceblue;
+}
+.chat-body{
+   width:300px;
+   height:312px;
+   overflow-y: auto;
+}
+.chat-user,.chat-others{
+   background-color: aliceblue;
+   color:blue;
+   width:270px;
+   height: 42px;
+   margin-top: 12px;
+   border-radius: 20px;
+}
+.chat-user{
+ text-align: left;
+ background-color:lightgreen;
+ color:blue;
+   
+}
+.chat-others{
+   background-color: orange;
+      color:aliceblue;
+      text-align: right;
+      margin-left:12px;
+
+}
+.chat-form{
+   width:289px;
+   height: 34qpx;
+   background-color: aliceblue;
+}
+.chat-text{
+   width:220px;
+   height: 32px;
+   background-color: aliceblue;
+   font-weight: bold;
+   color:orange;
+   font-size: 20px;
+
+   border:0px;
+}
+.send{
+   width:60px;
+   height: 31px;
+   font-size: 20px;
+   font-weight: bold;
+   border:0px;
+   background-color: aliceblue;
+   color:orange
+}
+
+.text-input {
+   width: 56%;
+   height: 50px;
+   border: 0px;
+   margin-top: 34px;
+   border-radius: 20px;
+   background-color: aliceblue;
+   font-weight: bold;
+   font-size: 20px;
+
+ }
+ .num-input{
+   width:98%;
+   height: 45px;
+   border: 0px;
+   background-color:lightyellow;
+   color:orange;
+   font-size: 20px
+
+ }
+ table{
+   background-color: #f5f5dc;
+   border: 3px;
+   border-color: orange;
+   margin-top: 12px;
+ }
+ th,td{
+    width:23%;
+    height: 45px;
+    overflow-x: auto;
+    text-align: center;
+    color:orange;
+    font-size: 20px;
+ }
+ .btn-login-form {
+   width: 56.7%;
+   height: 49px;
+   margin-top: 25px;
+   background-color: #E1C16E;
+   border-radius: 20px;
+   color: aliceblue;
+   font-weight: bold;
+   font-size: 20px;
+ }
+
+ .login-form {
+   margin-top: 120px;
+   text-align: center;
+ }

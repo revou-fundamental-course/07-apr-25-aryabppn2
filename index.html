@@ -1,15 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>my-page</title>
   <link rel="stylesheet" href="css/style.css">
+  <title>halaman leo.com</title>
 </head>
-
 <body>
+  <!--header-->
+  <header id="content">
+    <div class="leo-logo"></div>
+   <nav>
+    <a href="#login-page">login</a>
+    <a href="#register-page">daftar</a>
+   </nav>
+  <h1>selamat datang dileo</h1> 
+  </header>
+<hr/>
+  <main>
+  <article>
+    berbagi dan mencari qoutes dengan nyaman dan mudah
+  </article>
+<section id="home-page">
+  <div>
+    <img src="assets/leo-logo.jpg" class="img-slides">
+    <img src="assets/ui-ux.png" class="img-slides">
+    <img src="assets/create-js.png" class="img-slides">
+    <img src="assets/coment.png" class="img-slides">
+    <img src="assets/th (5).jpeg" class="img-slides">
+    <img src="assets/th.jpeg" class="img-slides">
+  </div>
 
+ 
+ <div class="leo-page">
+  Samsung
+<div class="leo-screen"></div>
+
+
+ <div class="btn-phone">
+ <a href="#optional-qoutes">
+  <button style="background-color:yellow;width:30px;height:30px;margin-top: 4px;border-radius: 50%;border:0px"></button>
+ </a>
+ </div>
+</div> 
+
+</section>
+<hr/>
+<section id="optional-qoutes">
+<header class="option-header">
+  <nav class="option-nav" >
+    <a href="#content">home</a>
+    <a href="#login-page">login</a>
+    <a href="#register-page">daftar</a>
+  </nav>
+
+  <h1>fitur fitur pada leo</h1>
+</header>
+<hr/>
+<div class="option-body">
+  <div class="qoutes-card">
+    <a href="#open-qoutes">
+      <h1>isi qoutes</h1>
+    </a>
+  </div>
+  <div class="qoutes-share-card">
+    <div class="qoutes-share">isi qoutes share</div>
+    <a href="#open-qoutes-share"><h1>isi qoutes</h1></a>
+  </div>
+ <div class="chat-fitur">
+  <button onclick="send_chat('chat-others')" id="saya">saya</button>
+ <button id="orang">orang</button>
+  <div class="chat-body" id="chat">
+   <div class="chat-user">
+    <h1>hallo</h1>
+   </div>
+   <div class="chat-others">
+    <h1>hi </h1>
+   </div>
+  </div>
+  <div class="chat-form">
+    <input type="text" class="chat-text" placeholder="ketikan sesuatu" id="chat-input" >
+    <button onclick="send_chat('chat-user')"class="send">kirim</button>
+  </div>
+ </div>
+</section>
+<hr/>
+<section id="login-page">
+<header>
+  <nav>
+    <a href="#content">home</a>
+    <a href="#register-page">register</a>
+  </nav>
+  <h1>halaman login</h1>
+</header>
+  <form method="post" action="/get-account" class="login-form">
+    <input type="text" name="email_input" placeholder='masukan email.com' class="text-input"><br>
+    <button class="btn-login-form">lanjut</button>
+  </form>
+
+
+</section>
+<hr/>
+<section id="register-page">
+  <header>
+   <nav>
+    <a href="#content">home</a>
+    <a href="#login-page">login-page</a>
+   </nav>
+  <h1>halaman registrasi</h1>
+
+  </header>
+
+  <form method="post" action="/create-account" class="login-form">
+    <input type="text" name="email_input" placeholder='masukan email' class="text-input"><br>
+    <input type="text" name="password_input" placeholder='masukan password' class="text-input"><br>
+   <table>
+    <tr>
+      <th>ttg_lahir</th>
+      <th>hobi</th>
+    </tr>
+    <tr>
+      <td><input type="date" name="ttg_lahir" class="num-input"></td>
+      <td><input type="text" name="hobby" class="num-input" placeholder="hobi"></td>
+    </tr>
+   </table>
+
+    <button class="btn-login-form">daftarkan</button>
+  </form>
+</section>
+</main>
+
+
+
+<script src="js/script.js"></script>
 </body>
-
 </html>
